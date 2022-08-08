@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Morgan Slone's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="mysh-img" alt="Personal logo: mouse face">
+              <img class="brand-img" src="assets/mysh.png">
+              </div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Morgan Slone</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html"> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="portfolio-home.html"> <!-- CHANGE -->
+                <br class="hidden-xs"> Portfolio</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="resume-home.html">
+                <br class="hidden-xs"> Resume</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="about-home.html">
+                <br class="hidden-xs"> About</a>
+            </li id="navMenuButton">
+            <li>
+              <a href="contact-home.html">
+                <br class="hidden-xs"> Contact</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+<article id="page-header-subtitle">
+  <div class="container">
+      <div class="row">
+            <section id="head-subtitle" class="col-md-6 col-sm-12">
+                <div id="page-header">HELLO,</div>
+                <div id="page-subtitle">welcome to <br> my mind.</div>
+          </section>
+            <section id="heading-image" class="col-md-6 col-sm-12">
+                <div id="heading-img" alt="Insert alt text">
+                  <img class="heading-img" src="assets/nirmal-rajendharkumar-1lGeOg6IULc-unsplash.jpg">
+                    <img class="heading-tape" src="assets/tape/tape-1.png">
+                </div>
+          </section>
+    </div>
+  </div>
+</article>
+    
+<article id="section-images">
+    <div class="container">
+      <div class="row">
+        <section id="about" class="col-md-4">
+            <div id="section-img" alt="Insert alt text">
+              <a href="about-home.html">
+                <img class="section-img" src="assets/section-img/about-section.jpg"><img class="section-tape" src="assets/tape/tape-2.png">
+            <div class="text-block">
+              <h4>about</h4>
+            </div>
+                </a>
+            </div>
+            
+          <hr class="visible-xs">
+        </section>
+        <section id="resume" class="col-md-4">
+            <div id="section-img" alt="Insert alt text">
+              <a href="resume-home.html">
+                <img class="section-img" src="assets/section-img/resume-section.jpg"><img class="section-tape" src="assets/tape/tape-3.png">
+              <div class="text-block">
+              <h4>resume</h4>
+            </div>
+          </a>
+        </div>
+            
+          <hr class="visible-xs">
+        </section>
+        <section id="portfolio" class="col-md-4">
+            <div id="section-img" alt="Insert alt text">
+                <a href="portfolio-home.html">
+              <img class="section-img" src="assets/section-img/portfolio-section.jpg"><img class="section-tape" src="assets/tape/tape-4.png">
+                     <div class="text-block">
+                        <h4>portfolio</h4>
+                    </div>
+                </a>
+              </div>
+            <hr class="visible-xs">
+        </section>
+      </div>
+    </div>
+   </article> 
+   
+<div id="contact-title" class="text-center">contact</div>
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="contact-child child1">
+         <div class="inside-contact">
+            <p>Name *</p>
+            <input id="txt_name" type="text" Required="required">
+            <p>Email *</p>
+            <input id="txt_email" type="text" Required="required">
+            <p>Subject *</p>
+            <input id="txt_subject" type="text" Required="required">
+            <p>Message *</p>
+            <textarea id="txt_message" rows="4" cols="20" Required="required"></textarea>
+            <input type="submit" id="btn_send" value="SEND">
+         </div>
+      </div>
+  </form>
+
+</body>
+
+
+</html>
